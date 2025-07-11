@@ -1,0 +1,90 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+venv/
+env/
+*.pyc
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Development environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Testing
+coverage/
+.nyc_output/
+
+# Mobile app specific
+*.keystore
+*.jks
+*.p12
+*.key
+google-services.json
+GoogleService-Info.plist
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Project specific
+# BLE beacon configuration backup
+beacon-configs/
+# Temporary event data
+temp-event-data/
+# Local test certificates
+*.local-cert/
+# Generated API documentation
+api-docs/
+# Database backups
+*.backup
+*.bak
+# Local development configuration
+config.local.json
+settings.local.json
+
+# Documentation drafts
+.concepts/_drafts/
+.concepts/_archive/*.backup/
