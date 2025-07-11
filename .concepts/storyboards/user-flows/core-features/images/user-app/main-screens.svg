@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="1200" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    <style>
+        text { font-family: Arial; fill: #333; }
+        .title { font-size: 20px; font-weight: bold; }
+        .screen { font-size: 16px; font-weight: bold; }
+        .component { font-size: 14px; }
+        .phone { fill: none; stroke: #666; stroke-width: 2; }
+        .screen-bg { fill: #fff; stroke: #ddd; stroke-width: 1; }
+        .button { fill: #e3f2fd; stroke: #1976d2; }
+        .status { fill: #fff; stroke: #666; }
+        .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    
+    <!-- Title -->
+    <text x="400" y="40" text-anchor="middle" class="title">사용자 앱 주요 화면</text>
+    
+    <!-- Login Screen -->
+    <rect x="50" y="80" width="200" height="400" rx="20" class="phone"/>
+    <text x="150" y="120" text-anchor="middle" class="screen">로그인 화면</text>
+    <rect x="70" y="140" width="160" height="320" rx="5" class="screen-bg"/>
+    
+    <!-- Login Components -->
+    <rect x="90" y="180" width="120" height="40" rx="5" class="button"/>
+    <text x="150" y="205" text-anchor="middle" class="component">로그인 입력</text>
+    
+    <rect x="90" y="240" width="120" height="40" rx="5" class="button"/>
+    <text x="150" y="265" text-anchor="middle" class="component">소셜 로그인</text>
+    
+    <rect x="90" y="300" width="120" height="40" rx="5" class="button"/>
+    <text x="150" y="325" text-anchor="middle" class="component">게스트 로그인</text>
+    
+    <!-- Main Screen -->
+    <rect x="300" y="80" width="200" height="400" rx="20" class="phone"/>
+    <text x="400" y="120" text-anchor="middle" class="screen">메인 화면</text>
+    <rect x="320" y="140" width="160" height="320" rx="5" class="screen-bg"/>
+    
+    <!-- Main Components -->
+    <rect x="340" y="160" width="120" height="40" rx="5" class="status"/>
+    <text x="400" y="185" text-anchor="middle" class="component">출석 상태</text>
+    
+    <rect x="340" y="220" width="120" height="40" rx="5" class="button"/>
+    <text x="400" y="245" text-anchor="middle" class="component">이벤트 목록</text>
+    
+    <rect x="340" y="280" width="120" height="40" rx="5" class="button"/>
+    <text x="400" y="305" text-anchor="middle" class="component">내 일정</text>
+    
+    <rect x="340" y="340" width="120" height="40" rx="5" class="button"/>
+    <text x="400" y="365" text-anchor="middle" class="component">프로필</text>
+    
+    <!-- Event Screen -->
+    <rect x="550" y="80" width="200" height="400" rx="20" class="phone"/>
+    <text x="650" y="120" text-anchor="middle" class="screen">이벤트 상세</text>
+    <rect x="570" y="140" width="160" height="320" rx="5" class="screen-bg"/>
+    
+    <!-- Event Components -->
+    <rect x="590" y="160" width="120" height="60" rx="5" class="status"/>
+    <text x="650" y="185" text-anchor="middle" class="component">이벤트 정보</text>
+    <text x="650" y="205" text-anchor="middle" class="component">상태/시간</text>
+    
+    <rect x="590" y="240" width="120" height="40" rx="5" class="button"/>
+    <text x="650" y="265" text-anchor="middle" class="component">출석 체크</text>
+    
+    <rect x="590" y="300" width="120" height="40" rx="5" class="button"/>
+    <text x="650" y="325" text-anchor="middle" class="component">위치 확인</text>
+    
+    <!-- Profile Screen -->
+    <rect x="50" y="520" width="200" height="400" rx="20" class="phone"/>
+    <text x="150" y="560" text-anchor="middle" class="screen">프로필 화면</text>
+    <rect x="70" y="580" width="160" height="320" rx="5" class="screen-bg"/>
+    
+    <!-- Profile Components -->
+    <rect x="90" y="600" width="120" height="60" rx="5" class="status"/>
+    <text x="150" y="625" text-anchor="middle" class="component">프로필 정보</text>
+    <text x="150" y="645" text-anchor="middle" class="component">사용자 상태</text>
+    
+    <rect x="90" y="680" width="120" height="40" rx="5" class="button"/>
+    <text x="150" y="705" text-anchor="middle" class="component">출석 기록</text>
+    
+    <rect x="90" y="740" width="120" height="40" rx="5" class="button"/>
+    <text x="150" y="765" text-anchor="middle" class="component">설정</text>
+    
+    <!-- Navigation -->
+    <line x1="250" y1="280" x2="300" y2="280" class="arrow"/>
+    <line x1="500" y1="240" x2="550" y2="240" class="arrow"/>
+    <line x1="400" y1="360" x2="150" y2="520" class="arrow"/>
+</svg>

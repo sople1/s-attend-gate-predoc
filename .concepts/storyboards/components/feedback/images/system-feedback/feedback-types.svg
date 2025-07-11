@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    <style>
+        text { font-family: Arial; fill: #333; }
+        .title { font-size: 20px; font-weight: bold; }
+        .component { font-size: 14px; }
+        .box { fill: #fff; stroke: #666; stroke-width: 2; }
+        .success { fill: #e8f5e9; stroke: #4caf50; }
+        .error { fill: #ffebee; stroke: #f44336; }
+        .warning { fill: #fff3e0; stroke: #ff9800; }
+        .info { fill: #e3f2fd; stroke: #2196f3; }
+        .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    
+    <!-- Title -->
+    <text x="400" y="50" text-anchor="middle" class="title">시스템 피드백 유형</text>
+    
+    <!-- Success Feedback -->
+    <rect x="50" y="100" width="150" height="100" rx="5" class="box success"/>
+    <text x="125" y="140" text-anchor="middle" class="component">성공 피드백</text>
+    <text x="125" y="160" text-anchor="middle" class="component">- 체크마크</text>
+    <text x="125" y="180" text-anchor="middle" class="component">- 성공 메시지</text>
+    
+    <!-- Error Feedback -->
+    <rect x="250" y="100" width="150" height="100" rx="5" class="box error"/>
+    <text x="325" y="140" text-anchor="middle" class="component">오류 피드백</text>
+    <text x="325" y="160" text-anchor="middle" class="component">- 경고 아이콘</text>
+    <text x="325" y="180" text-anchor="middle" class="component">- 오류 메시지</text>
+    
+    <!-- Warning Feedback -->
+    <rect x="450" y="100" width="150" height="100" rx="5" class="box warning"/>
+    <text x="525" y="140" text-anchor="middle" class="component">경고 피드백</text>
+    <text x="525" y="160" text-anchor="middle" class="component">- 주의 아이콘</text>
+    <text x="525" y="180" text-anchor="middle" class="component">- 경고 메시지</text>
+    
+    <!-- Info Feedback -->
+    <rect x="650" y="100" width="150" height="100" rx="5" class="box info"/>
+    <text x="725" y="140" text-anchor="middle" class="component">정보 피드백</text>
+    <text x="725" y="160" text-anchor="middle" class="component">- 정보 아이콘</text>
+    <text x="725" y="180" text-anchor="middle" class="component">- 안내 메시지</text>
+    
+    <!-- Loading States -->
+    <rect x="50" y="250" width="150" height="100" rx="5" class="box"/>
+    <text x="125" y="290" text-anchor="middle" class="component">로딩 상태</text>
+    <text x="125" y="310" text-anchor="middle" class="component">- 스피너</text>
+    <text x="125" y="330" text-anchor="middle" class="component">- 진행바</text>
+    
+    <!-- Progress Feedback -->
+    <rect x="250" y="250" width="150" height="100" rx="5" class="box"/>
+    <text x="325" y="290" text-anchor="middle" class="component">진행 피드백</text>
+    <text x="325" y="310" text-anchor="middle" class="component">- 단계 표시</text>
+    <text x="325" y="330" text-anchor="middle" class="component">- 완료율</text>
+    
+    <!-- Interactive Feedback -->
+    <rect x="450" y="250" width="150" height="100" rx="5" class="box"/>
+    <text x="525" y="290" text-anchor="middle" class="component">상호작용 피드백</text>
+    <text x="525" y="310" text-anchor="middle" class="component">- 호버 효과</text>
+    <text x="525" y="330" text-anchor="middle" class="component">- 클릭 효과</text>
+    
+    <!-- System Status -->
+    <rect x="650" y="250" width="150" height="100" rx="5" class="box"/>
+    <text x="725" y="290" text-anchor="middle" class="component">시스템 상태</text>
+    <text x="725" y="310" text-anchor="middle" class="component">- 연결 상태</text>
+    <text x="725" y="330" text-anchor="middle" class="component">- 동기화 상태</text>
+</svg>

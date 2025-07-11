@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+    <!-- 모바일 앱 설정 메인 화면 -->
+    <rect x="360" y="40" width="1200" height="1000" rx="12" fill="#f5f5f5"/>
+    
+    <!-- 설정 헤더 -->
+    <rect x="360" y="40" width="1200" height="80" rx="12" fill="#ffffff"/>
+    <text x="400" y="85" font-family="Arial" font-size="24" fill="#333333">설정</text>
+    <circle cx="1500" cy="80" r="20" fill="#e0e0e0"/>
+    <text x="1490" y="88" font-family="Arial" font-size="24" fill="#666666">×</text>
+
+    <!-- 설정 섹션들 -->
+    <!-- 계정 섹션 -->
+    <rect x="380" y="140" width="1160" height="120" rx="8" fill="#ffffff"/>
+    <text x="420" y="185" font-family="Arial" font-size="20" fill="#333333">계정 관리</text>
+    <text x="420" y="215" font-family="Arial" font-size="16" fill="#666666">프로필, 비밀번호, 연동 설정</text>
+    <path d="M1480 190 L1500 200 L1480 210" fill="none" stroke="#666666" stroke-width="2"/>
+
+    <!-- 알림 섹션 -->
+    <rect x="380" y="280" width="1160" height="120" rx="8" fill="#ffffff"/>
+    <text x="420" y="325" font-family="Arial" font-size="20" fill="#333333">알림 설정</text>
+    <text x="420" y="355" font-family="Arial" font-size="16" fill="#666666">푸시 알림, 소리, 진동 설정</text>
+    <path d="M1480 330 L1500 340 L1480 350" fill="none" stroke="#666666" stroke-width="2"/>
+
+    <!-- 권한 섹션 -->
+    <rect x="380" y="420" width="1160" height="120" rx="8" fill="#ffffff"/>
+    <text x="420" y="465" font-family="Arial" font-size="20" fill="#333333">권한 관리</text>
+    <text x="420" y="495" font-family="Arial" font-size="16" fill="#666666">위치, 블루투스, 알림 권한</text>
+    <path d="M1480 470 L1500 480 L1480 490" fill="none" stroke="#666666" stroke-width="2"/>
+
+    <!-- 앱 설정 섹션 -->
+    <rect x="380" y="560" width="1160" height="120" rx="8" fill="#ffffff"/>
+    <text x="420" y="605" font-family="Arial" font-size="20" fill="#333333">앱 설정</text>
+    <text x="420" y="635" font-family="Arial" font-size="16" fill="#666666">테마, 언어, 글꼴 크기</text>
+    <path d="M1480 610 L1500 620 L1480 630" fill="none" stroke="#666666" stroke-width="2"/>
+
+    <!-- 지원 섹션 -->
+    <rect x="380" y="700" width="1160" height="120" rx="8" fill="#ffffff"/>
+    <text x="420" y="745" font-family="Arial" font-size="20" fill="#333333">도움말 및 지원</text>
+    <text x="420" y="775" font-family="Arial" font-size="16" fill="#666666">FAQ, 문의하기, 이용약관</text>
+    <path d="M1480 750 L1500 760 L1480 770" fill="none" stroke="#666666" stroke-width="2"/>
+
+    <!-- 앱 정보 섹션 -->
+    <rect x="380" y="840" width="1160" height="120" rx="8" fill="#ffffff"/>
+    <text x="420" y="885" font-family="Arial" font-size="20" fill="#333333">앱 정보</text>
+    <text x="420" y="915" font-family="Arial" font-size="16" fill="#666666">버전 정보, 저작권</text>
+    <text x="1460" y="900" font-family="Arial" font-size="16" fill="#666666">v1.0.0</text>
+</svg>

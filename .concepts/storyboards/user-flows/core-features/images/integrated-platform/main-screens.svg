@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="800" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    <style>
+        text { font-family: Arial; fill: #333; }
+        .title { font-size: 20px; font-weight: bold; }
+        .screen { font-size: 16px; font-weight: bold; }
+        .component { font-size: 14px; }
+        .window { fill: #fff; stroke: #666; stroke-width: 2; }
+        .header { fill: #f5f5f5; stroke: #ddd; }
+        .content { fill: #fff; stroke: #ddd; }
+        .button { fill: #e3f2fd; stroke: #1976d2; }
+        .chart { fill: #f5f5f5; stroke: #ddd; }
+        .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    
+    <!-- Title -->
+    <text x="600" y="40" text-anchor="middle" class="title">통합 플랫폼 주요 화면</text>
+    
+    <!-- System Overview -->
+    <rect x="50" y="80" width="500" height="300" rx="5" class="window"/>
+    <rect x="50" y="80" width="500" height="40" rx="5" class="header"/>
+    <text x="300" y="105" text-anchor="middle" class="screen">시스템 현황</text>
+    
+    <!-- System Status Components -->
+    <rect x="70" y="140" width="140" height="100" rx="5" class="chart"/>
+    <text x="140" y="165" text-anchor="middle" class="component">사용자 앱</text>
+    <text x="140" y="185" text-anchor="middle" class="component">활성 세션: 150</text>
+    
+    <rect x="230" y="140" width="140" height="100" rx="5" class="chart"/>
+    <text x="300" y="165" text-anchor="middle" class="component">이벤트 관리</text>
+    <text x="300" y="185" text-anchor="middle" class="component">진행중: 5</text>
+    
+    <rect x="390" y="140" width="140" height="100" rx="5" class="chart"/>
+    <text x="460" y="165" text-anchor="middle" class="component">게이트 관리</text>
+    <text x="460" y="185" text-anchor="middle" class="component">활성: 8</text>
+    
+    <!-- Integration Status -->
+    <rect x="600" y="80" width="500" height="300" rx="5" class="window"/>
+    <rect x="600" y="80" width="500" height="40" rx="5" class="header"/>
+    <text x="850" y="105" text-anchor="middle" class="screen">통합 현황</text>
+    
+    <!-- Integration Components -->
+    <rect x="620" y="140" width="460" height="220" rx="5" class="content"/>
+    <line x1="620" y1="180" x2="1080" y2="180" class="arrow" style="stroke: #ddd;"/>
+    <text x="640" y="165" class="component">통합 서비스</text>
+    <text x="800" y="165" class="component">상태</text>
+    <text x="900" y="165" class="component">마지막 동기화</text>
+    <text x="1000" y="165" class="component">처리량</text>
+    
+    <!-- Analytics Dashboard -->
+    <rect x="50" y="420" width="500" height="300" rx="5" class="window"/>
+    <rect x="50" y="420" width="500" height="40" rx="5" class="header"/>
+    <text x="300" y="445" text-anchor="middle" class="screen">분석 대시보드</text>
+    
+    <!-- Analytics Components -->
+    <rect x="70" y="480" width="220" height="220" rx="5" class="chart"/>
+    <text x="180" y="505" text-anchor="middle" class="component">출석률 추이</text>
+    
+    <rect x="310" y="480" width="220" height="220" rx="5" class="chart"/>
+    <text x="420" y="505" text-anchor="middle" class="component">게이트 사용률</text>
+    
+    <!-- Settings -->
+    <rect x="600" y="420" width="500" height="300" rx="5" class="window"/>
+    <rect x="600" y="420" width="500" height="40" rx="5" class="header"/>
+    <text x="850" y="445" text-anchor="middle" class="screen">시스템 설정</text>
+    
+    <!-- Settings Components -->
+    <rect x="620" y="480" width="220" height="100" rx="5" class="content"/>
+    <text x="730" y="505" text-anchor="middle" class="component">API 설정</text>
+    <text x="730" y="525" text-anchor="middle" class="component">키 관리</text>
+    
+    <rect x="860" y="480" width="220" height="100" rx="5" class="content"/>
+    <text x="970" y="505" text-anchor="middle" class="component">데이터 관리</text>
+    <text x="970" y="525" text-anchor="middle" class="component">백업/복원</text>
+    
+    <rect x="620" y="600" width="460" height="100" rx="5" class="content"/>
+    <text x="640" y="625" class="component">시스템 로그</text>
+    <text x="640" y="645" class="component">알림 설정</text>
+    <text x="640" y="665" class="component">접근 권한</text>
+    
+    <!-- Navigation -->
+    <line x1="550" y1="230" x2="600" y2="230" class="arrow"/>
+    <line x1="850" y1="380" x2="850" y2="420" class="arrow"/>
+    <line x1="300" y1="380" x2="300" y2="420" class="arrow"/>
+</svg>

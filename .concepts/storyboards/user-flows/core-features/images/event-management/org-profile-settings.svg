@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+    <!-- 조직 프로필 설정 페이지 -->
+    <rect x="280" y="40" width="1360" height="1000" rx="12" fill="#ffffff"/>
+    
+    <!-- 좌측 네비게이션 -->
+    <rect x="280" y="40" width="280" height="1000" rx="12" fill="#f8f8f8"/>
+    <rect x="280" y="120" width="280" height="60" fill="#2196F3"/>
+    <text x="310" y="155" font-family="Arial" font-size="16" fill="#ffffff">조직 프로필</text>
+    <text x="310" y="235" font-family="Arial" font-size="16" fill="#666666">이벤트 기본값</text>
+    <text x="310" y="295" font-family="Arial" font-size="16" fill="#666666">팀 관리</text>
+    <text x="310" y="355" font-family="Arial" font-size="16" fill="#666666">API 키</text>
+    <text x="310" y="415" font-family="Arial" font-size="16" fill="#666666">결제 설정</text>
+
+    <!-- 메인 콘텐츠 영역 -->
+    <text x="600" y="100" font-family="Arial" font-size="28" fill="#333333">조직 프로필 설정</text>
+
+    <!-- 조직 로고 섹션 -->
+    <rect x="600" y="140" width="200" height="200" rx="8" fill="#f5f5f5"/>
+    <text x="680" y="220" font-family="Arial" font-size="40" fill="#666666">🏢</text>
+    <text x="660" y="270" font-family="Arial" font-size="14" fill="#2196F3">로고 변경</text>
+
+    <!-- 조직 정보 폼 -->
+    <!-- 조직명 -->
+    <text x="600" y="400" font-family="Arial" font-size="16" fill="#666666">조직명</text>
+    <rect x="600" y="420" width="600" height="50" rx="8" fill="#f5f5f5"/>
+    <text x="620" y="450" font-family="Arial" font-size="16" fill="#333333">예시 조직명</text>
+
+    <!-- 사업자 등록번호 -->
+    <text x="600" y="500" font-family="Arial" font-size="16" fill="#666666">사업자 등록번호</text>
+    <rect x="600" y="520" width="600" height="50" rx="8" fill="#f5f5f5"/>
+    <text x="620" y="550" font-family="Arial" font-size="16" fill="#333333">123-45-67890</text>
+
+    <!-- 대표 연락처 -->
+    <text x="600" y="600" font-family="Arial" font-size="16" fill="#666666">대표 연락처</text>
+    <rect x="600" y="620" width="600" height="50" rx="8" fill="#f5f5f5"/>
+    <text x="620" y="650" font-family="Arial" font-size="16" fill="#333333">02-123-4567</text>
+
+    <!-- 주소 -->
+    <text x="600" y="700" font-family="Arial" font-size="16" fill="#666666">주소</text>
+    <rect x="600" y="720" width="600" height="50" rx="8" fill="#f5f5f5"/>
+    <text x="620" y="750" font-family="Arial" font-size="16" fill="#333333">서울특별시 강남구 테헤란로...</text>
+
+    <!-- 버튼 영역 -->
+    <rect x="600" y="900" width="120" height="50" rx="25" fill="#e0e0e0"/>
+    <text x="635" y="930" font-family="Arial" font-size="16" fill="#666666">취소</text>
+
+    <rect x="740" y="900" width="120" height="50" rx="25" fill="#2196F3"/>
+    <text x="775" y="930" font-family="Arial" font-size="16" fill="#ffffff">저장</text>
+
+    <!-- 우측 미리보기 -->
+    <rect x="1280" y="140" width="320" height="600" rx="8" fill="#f5f5f5"/>
+    <text x="1400" y="180" font-family="Arial" font-size="16" fill="#666666">미리보기</text>
+</svg>

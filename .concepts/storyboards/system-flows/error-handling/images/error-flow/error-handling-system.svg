@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    <style>
+        text { font-family: Arial; fill: #333; }
+        .title { font-size: 20px; font-weight: bold; }
+        .component { font-size: 14px; }
+        .box { fill: #fff; stroke: #666; stroke-width: 2; }
+        .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+        .error { fill: #ffebee; stroke: #c62828; }
+    </style>
+    
+    <!-- Title -->
+    <text x="400" y="50" text-anchor="middle" class="title">오류 처리 시스템</text>
+    
+    <!-- Error Sources -->
+    <rect x="50" y="100" width="150" height="80" rx="5" class="box error"/>
+    <text x="125" y="135" text-anchor="middle" class="component">시스템 오류</text>
+    <text x="125" y="155" text-anchor="middle" class="component">처리기</text>
+    
+    <rect x="50" y="200" width="150" height="80" rx="5" class="box error"/>
+    <text x="125" y="235" text-anchor="middle" class="component">사용자 오류</text>
+    <text x="125" y="255" text-anchor="middle" class="component">처리기</text>
+    
+    <!-- Error Processing -->
+    <rect x="300" y="150" width="200" height="120" rx="5" class="box"/>
+    <text x="400" y="185" text-anchor="middle" class="component">오류 처리 엔진</text>
+    <text x="400" y="205" text-anchor="middle" class="component">- 오류 분류</text>
+    <text x="400" y="225" text-anchor="middle" class="component">- 로깅</text>
+    <text x="400" y="245" text-anchor="middle" class="component">- 복구 전략</text>
+    
+    <!-- Notification -->
+    <rect x="600" y="100" width="150" height="100" rx="5" class="box"/>
+    <text x="675" y="135" text-anchor="middle" class="component">알림 시스템</text>
+    <text x="675" y="155" text-anchor="middle" class="component">- 관리자 알림</text>
+    <text x="675" y="175" text-anchor="middle" class="component">- 사용자 알림</text>
+    
+    <!-- Storage -->
+    <rect x="600" y="250" width="150" height="80" rx="5" class="box"/>
+    <text x="675" y="285" text-anchor="middle" class="component">오류 로그</text>
+    <text x="675" y="305" text-anchor="middle" class="component">저장소</text>
+    
+    <!-- Arrows -->
+    <line x1="200" y1="140" x2="300" y2="180" class="arrow"/>
+    <line x1="200" y1="240" x2="300" y2="220" class="arrow"/>
+    <line x1="500" y1="180" x2="600" y2="150" class="arrow"/>
+    <line x1="500" y1="220" x2="600" y2="280" class="arrow"/>
+</svg>

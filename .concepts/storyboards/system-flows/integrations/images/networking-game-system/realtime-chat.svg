@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    <style>
+        text { font-family: Arial; fill: #333; }
+        .title { font-size: 20px; font-weight: bold; }
+        .component { font-size: 14px; }
+        .box { fill: #fff; stroke: #666; stroke-width: 2; }
+        .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    
+    <!-- Title -->
+    <text x="400" y="50" text-anchor="middle" class="title">실시간 채팅 시스템</text>
+    
+    <!-- Clients -->
+    <rect x="50" y="150" width="120" height="60" rx="5" class="box"/>
+    <text x="110" y="185" text-anchor="middle" class="component">사용자 A</text>
+    
+    <rect x="50" y="250" width="120" height="60" rx="5" class="box"/>
+    <text x="110" y="285" text-anchor="middle" class="component">사용자 B</text>
+    
+    <rect x="50" y="350" width="120" height="60" rx="5" class="box"/>
+    <text x="110" y="385" text-anchor="middle" class="component">사용자 C</text>
+    
+    <!-- WebSocket Server -->
+    <rect x="300" y="200" width="200" height="160" rx="5" class="box"/>
+    <text x="400" y="240" text-anchor="middle" class="component">WebSocket 서버</text>
+    <text x="400" y="270" text-anchor="middle" class="component">- 연결 관리</text>
+    <text x="400" y="290" text-anchor="middle" class="component">- 메시지 라우팅</text>
+    <text x="400" y="310" text-anchor="middle" class="component">- 상태 추적</text>
+    
+    <!-- Message Queue -->
+    <rect x="600" y="150" width="150" height="80" rx="5" class="box"/>
+    <text x="675" y="185" text-anchor="middle" class="component">메시지 큐</text>
+    <text x="675" y="205" text-anchor="middle" class="component">Redis/RabbitMQ</text>
+    
+    <!-- Chat Storage -->
+    <rect x="600" y="300" width="150" height="80" rx="5" class="box"/>
+    <text x="675" y="335" text-anchor="middle" class="component">채팅 저장소</text>
+    <text x="675" y="355" text-anchor="middle" class="component">MongoDB</text>
+    
+    <!-- Arrows -->
+    <line x1="170" y1="180" x2="300" y2="240" class="arrow"/>
+    <line x1="170" y1="280" x2="300" y2="280" class="arrow"/>
+    <line x1="170" y1="380" x2="300" y2="320" class="arrow"/>
+    
+    <line x1="500" y1="240" x2="600" y2="190" class="arrow"/>
+    <line x1="500" y1="320" x2="600" y2="340" class="arrow"/>
+</svg>

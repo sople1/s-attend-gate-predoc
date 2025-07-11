@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+    <!-- 배경 -->
+    <rect width="1920" height="1080" fill="#ffffff"/>
+    
+    <!-- 시스템 경계 -->
+    <rect x="200" y="100" width="1520" height="880" fill="#f8f8f8" stroke="#e0e0e0" stroke-width="2"/>
+    
+    <!-- 중앙 시스템 -->
+    <rect x="600" y="300" width="720" height="480" fill="#ffffff" stroke="#2196F3" stroke-width="2"/>
+    <text x="960" y="340" font-family="Arial" font-size="24" fill="#2196F3" text-anchor="middle">s-attend-gate</text>
+
+    <!-- User App -->
+    <rect x="640" y="380" width="160" height="100" fill="#ffffff" stroke="#4CAF50" stroke-width="2"/>
+    <text x="720" y="430" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">User App</text>
+    
+    <!-- Event Management -->
+    <rect x="880" y="380" width="160" height="100" fill="#ffffff" stroke="#4CAF50" stroke-width="2"/>
+    <text x="960" y="430" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Event Management</text>
+    
+    <!-- Gate Management -->
+    <rect x="640" y="600" width="160" height="100" fill="#ffffff" stroke="#4CAF50" stroke-width="2"/>
+    <text x="720" y="650" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Gate Management</text>
+    
+    <!-- Integrated Platform -->
+    <rect x="880" y="600" width="160" height="100" fill="#ffffff" stroke="#4CAF50" stroke-width="2"/>
+    <text x="960" y="650" font-family="Arial" font-size="16" fill="#333333" text-anchor="middle">Integrated Platform</text>
+
+    <!-- 외부 시스템 -->
+    <!-- User App 외부 의존성 -->
+    <rect x="300" y="200" width="120" height="60" fill="#ffffff" stroke="#FFC107" stroke-width="2"/>
+    <text x="360" y="235" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">GPS</text>
+    
+    <rect x="300" y="300" width="120" height="60" fill="#ffffff" stroke="#FFC107" stroke-width="2"/>
+    <text x="360" y="335" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">BLE</text>
+    
+    <rect x="300" y="400" width="120" height="60" fill="#ffffff" stroke="#FFC107" stroke-width="2"/>
+    <text x="360" y="435" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">푸시 알림</text>
+
+    <!-- Event Management 외부 의존성 -->
+    <rect x="1500" y="200" width="120" height="60" fill="#ffffff" stroke="#FFC107" stroke-width="2"/>
+    <text x="1560" y="235" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">결제 시스템</text>
+    
+    <rect x="1500" y="300" width="120" height="60" fill="#ffffff" stroke="#FFC107" stroke-width="2"/>
+    <text x="1560" y="335" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">이메일/SMS</text>
+    
+    <rect x="1500" y="400" width="120" height="60" fill="#ffffff" stroke="#FFC107" stroke-width="2"/>
+    <text x="1560" y="435" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">CRM</text>
+
+    <!-- Gate Management 외부 의존성 -->
+    <rect x="300" y="700" width="120" height="60" fill="#ffffff" stroke="#FFC107" stroke-width="2"/>
+    <text x="360" y="735" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">하드웨어</text>
+    
+    <rect x="300" y="800" width="120" height="60" fill="#ffffff" stroke="#FFC107" stroke-width="2"/>
+    <text x="360" y="835" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">CCTV</text>
+
+    <!-- Integrated Platform 외부 의존성 -->
+    <rect x="1500" y="700" width="120" height="60" fill="#ffffff" stroke="#FFC107" stroke-width="2"/>
+    <text x="1560" y="735" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">데이터 저장소</text>
+    
+    <rect x="1500" y="800" width="120" height="60" fill="#ffffff" stroke="#FFC107" stroke-width="2"/>
+    <text x="1560" y="835" font-family="Arial" font-size="14" fill="#333333" text-anchor="middle">모니터링</text>
+
+    <!-- 연결선 -->
+    <!-- User App 연결 -->
+    <line x1="640" y1="430" x2="420" y2="230" stroke="#999999" stroke-width="1"/>
+    <line x1="640" y1="430" x2="420" y2="330" stroke="#999999" stroke-width="1"/>
+    <line x1="640" y1="430" x2="420" y2="430" stroke="#999999" stroke-width="1"/>
+
+    <!-- Event Management 연결 -->
+    <line x1="1040" y1="430" x2="1500" y2="230" stroke="#999999" stroke-width="1"/>
+    <line x1="1040" y1="430" x2="1500" y2="330" stroke="#999999" stroke-width="1"/>
+    <line x1="1040" y1="430" x2="1500" y2="430" stroke="#999999" stroke-width="1"/>
+
+    <!-- Gate Management 연결 -->
+    <line x1="640" y1="650" x2="420" y2="730" stroke="#999999" stroke-width="1"/>
+    <line x1="640" y1="650" x2="420" y2="830" stroke="#999999" stroke-width="1"/>
+
+    <!-- Integrated Platform 연결 -->
+    <line x1="1040" y1="650" x2="1500" y2="730" stroke="#999999" stroke-width="1"/>
+    <line x1="1040" y1="650" x2="1500" y2="830" stroke="#999999" stroke-width="1"/>
+
+    <!-- 범례 -->
+    <rect x="1600" y="900" width="20" height="20" fill="#ffffff" stroke="#4CAF50" stroke-width="2"/>
+    <text x="1630" y="915" font-family="Arial" font-size="14" fill="#333333">내부 시스템</text>
+    
+    <rect x="1600" y="930" width="20" height="20" fill="#ffffff" stroke="#FFC107" stroke-width="2"/>
+    <text x="1630" y="945" font-family="Arial" font-size="14" fill="#333333">외부 시스템</text>
+    
+    <line x1="1600" y1="960" x2="1620" y2="960" stroke="#999999" stroke-width="1"/>
+    <text x="1630" y="965" font-family="Arial" font-size="14" fill="#333333">통신 흐름</text>
+</svg>

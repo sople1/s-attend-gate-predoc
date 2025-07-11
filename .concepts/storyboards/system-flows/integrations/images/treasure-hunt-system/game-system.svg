@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    <style>
+        text { font-family: Arial; fill: #333; }
+        .title { font-size: 20px; font-weight: bold; }
+        .component { font-size: 14px; }
+        .box { fill: #fff; stroke: #666; stroke-width: 2; }
+        .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    
+    <!-- Title -->
+    <text x="400" y="50" text-anchor="middle" class="title">보물찾기 게임 시스템</text>
+    
+    <!-- Game Controller -->
+    <rect x="50" y="100" width="150" height="100" rx="5" class="box"/>
+    <text x="125" y="140" text-anchor="middle" class="component">게임 컨트롤러</text>
+    <text x="125" y="160" text-anchor="middle" class="component">- 게임 로직</text>
+    <text x="125" y="180" text-anchor="middle" class="component">- 상태 관리</text>
+    
+    <!-- QR Code System -->
+    <rect x="300" y="100" width="200" height="100" rx="5" class="box"/>
+    <text x="400" y="140" text-anchor="middle" class="component">QR 코드 시스템</text>
+    <text x="400" y="160" text-anchor="middle" class="component">- 코드 생성/인식</text>
+    <text x="400" y="180" text-anchor="middle" class="component">- 유효성 검증</text>
+    
+    <!-- Score Calculator -->
+    <rect x="600" y="100" width="150" height="100" rx="5" class="box"/>
+    <text x="675" y="140" text-anchor="middle" class="component">점수 계산기</text>
+    <text x="675" y="160" text-anchor="middle" class="component">- 점수 집계</text>
+    <text x="675" y="180" text-anchor="middle" class="component">- 순위 산정</text>
+    
+    <!-- Notification System -->
+    <rect x="300" y="300" width="200" height="100" rx="5" class="box"/>
+    <text x="400" y="340" text-anchor="middle" class="component">알림 시스템</text>
+    <text x="400" y="360" text-anchor="middle" class="component">- 실시간 알림</text>
+    <text x="400" y="380" text-anchor="middle" class="component">- 이벤트 브로드캐스트</text>
+    
+    <!-- Game Database -->
+    <rect x="600" y="300" width="150" height="100" rx="5" class="box"/>
+    <text x="675" y="340" text-anchor="middle" class="component">게임 데이터베이스</text>
+    <text x="675" y="360" text-anchor="middle" class="component">- 게임 상태</text>
+    <text x="675" y="380" text-anchor="middle" class="component">- 플레이어 기록</text>
+    
+    <!-- Arrows -->
+    <line x1="200" y1="150" x2="300" y2="150" class="arrow"/>
+    <line x1="500" y1="150" x2="600" y2="150" class="arrow"/>
+    <line x1="400" y1="200" x2="400" y2="300" class="arrow"/>
+    <line x1="500" y1="350" x2="600" y2="350" class="arrow"/>
+</svg>

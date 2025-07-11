@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    <style>
+        text { font-family: Arial; fill: #333; }
+        .title { font-size: 20px; font-weight: bold; }
+        .component { font-size: 14px; }
+        .box { fill: #fff; stroke: #666; stroke-width: 2; }
+        .state { fill: #e3f2fd; stroke: #1976d2; }
+        .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+        .interaction { fill: #f5f5f5; }
+    </style>
+    
+    <!-- Title -->
+    <text x="400" y="50" text-anchor="middle" class="title">이벤트 관리 상호작용</text>
+    
+    <!-- Drag and Drop -->
+    <rect x="50" y="100" width="200" height="150" rx="5" class="box interaction"/>
+    <text x="150" y="125" text-anchor="middle" class="component">드래그 앤 드롭</text>
+    
+    <rect x="70" y="140" width="160" height="40" rx="5" class="box state"/>
+    <text x="150" y="165" text-anchor="middle" class="component">드래그 시작</text>
+    
+    <rect x="70" y="190" width="160" height="40" rx="5" class="box state"/>
+    <text x="150" y="215" text-anchor="middle" class="component">위치 조정</text>
+    
+    <!-- Inline Editing -->
+    <rect x="300" y="100" width="200" height="150" rx="5" class="box interaction"/>
+    <text x="400" y="125" text-anchor="middle" class="component">인라인 편집</text>
+    
+    <rect x="320" y="140" width="160" height="40" rx="5" class="box state"/>
+    <text x="400" y="165" text-anchor="middle" class="component">보기 모드</text>
+    
+    <rect x="320" y="190" width="160" height="40" rx="5" class="box state"/>
+    <text x="400" y="215" text-anchor="middle" class="component">편집 모드</text>
+    
+    <!-- Filtering -->
+    <rect x="550" y="100" width="200" height="150" rx="5" class="box interaction"/>
+    <text x="650" y="125" text-anchor="middle" class="component">필터링</text>
+    
+    <rect x="570" y="140" width="160" height="40" rx="5" class="box state"/>
+    <text x="650" y="165" text-anchor="middle" class="component">필터 선택</text>
+    
+    <rect x="570" y="190" width="160" height="40" rx="5" class="box state"/>
+    <text x="650" y="215" text-anchor="middle" class="component">결과 표시</text>
+    
+    <!-- User Input -->
+    <rect x="300" y="300" width="200" height="150" rx="5" class="box interaction"/>
+    <text x="400" y="325" text-anchor="middle" class="component">사용자 입력</text>
+    
+    <rect x="320" y="340" width="160" height="40" rx="5" class="box state"/>
+    <text x="400" y="365" text-anchor="middle" class="component">입력</text>
+    
+    <rect x="320" y="390" width="160" height="40" rx="5" class="box state"/>
+    <text x="400" y="415" text-anchor="middle" class="component">유효성 검사</text>
+    
+    <!-- Arrows -->
+    <line x1="150" y1="180" x2="150" y2="190" class="arrow"/>
+    <line x1="400" y1="180" x2="400" y2="190" class="arrow"/>
+    <line x1="650" y1="180" x2="650" y2="190" class="arrow"/>
+    <line x1="400" y1="380" x2="400" y2="390" class="arrow"/>
+</svg>

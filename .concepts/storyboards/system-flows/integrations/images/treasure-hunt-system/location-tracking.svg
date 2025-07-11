@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    <style>
+        text { font-family: Arial; fill: #333; }
+        .title { font-size: 20px; font-weight: bold; }
+        .component { font-size: 14px; }
+        .box { fill: #fff; stroke: #666; stroke-width: 2; }
+        .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    
+    <!-- Title -->
+    <text x="400" y="50" text-anchor="middle" class="title">위치 추적 시스템</text>
+    
+    <!-- Mobile Client -->
+    <rect x="50" y="100" width="150" height="100" rx="5" class="box"/>
+    <text x="125" y="140" text-anchor="middle" class="component">모바일 클라이언트</text>
+    <text x="125" y="160" text-anchor="middle" class="component">- GPS</text>
+    <text x="125" y="180" text-anchor="middle" class="component">- QR 스캐너</text>
+    
+    <!-- Location Server -->
+    <rect x="300" y="100" width="200" height="120" rx="5" class="box"/>
+    <text x="400" y="140" text-anchor="middle" class="component">위치 서버</text>
+    <text x="400" y="160" text-anchor="middle" class="component">- 위치 데이터 처리</text>
+    <text x="400" y="180" text-anchor="middle" class="component">- 정확도 검증</text>
+    
+    <!-- Geofencing System -->
+    <rect x="600" y="100" width="150" height="80" rx="5" class="box"/>
+    <text x="675" y="140" text-anchor="middle" class="component">지오펜싱 시스템</text>
+    <text x="675" y="160" text-anchor="middle" class="component">영역 관리</text>
+    
+    <!-- Data Storage -->
+    <rect x="300" y="300" width="200" height="100" rx="5" class="box"/>
+    <text x="400" y="340" text-anchor="middle" class="component">위치 데이터 저장소</text>
+    <text x="400" y="360" text-anchor="middle" class="component">MongoDB/PostGIS</text>
+    
+    <!-- Real-time Processing -->
+    <rect x="600" y="300" width="150" height="100" rx="5" class="box"/>
+    <text x="675" y="340" text-anchor="middle" class="component">실시간 처리</text>
+    <text x="675" y="360" text-anchor="middle" class="component">Redis</text>
+    
+    <!-- Arrows -->
+    <line x1="200" y1="150" x2="300" y2="150" class="arrow"/>
+    <line x1="500" y1="150" x2="600" y2="150" class="arrow"/>
+    <line x1="400" y1="220" x2="400" y2="300" class="arrow"/>
+    <line x1="500" y1="350" x2="600" y2="350" class="arrow"/>
+</svg>

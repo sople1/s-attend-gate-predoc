@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+            <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+        </marker>
+    </defs>
+    <style>
+        text { font-family: Arial; fill: #333; }
+        .title { font-size: 20px; font-weight: bold; }
+        .component { font-size: 14px; }
+        .box { fill: #fff; stroke: #666; stroke-width: 2; }
+        .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead); }
+    </style>
+    
+    <!-- Title -->
+    <text x="400" y="50" text-anchor="middle" class="title">사용자 매칭 시스템</text>
+    
+    <!-- User Profiles -->
+    <rect x="50" y="100" width="120" height="80" rx="5" class="box"/>
+    <text x="110" y="140" text-anchor="middle" class="component">사용자 프로필</text>
+    <text x="110" y="160" text-anchor="middle" class="component">데이터베이스</text>
+    
+    <!-- Matching Engine -->
+    <rect x="300" y="100" width="200" height="120" rx="5" class="box"/>
+    <text x="400" y="140" text-anchor="middle" class="component">매칭 엔진</text>
+    <text x="400" y="160" text-anchor="middle" class="component">- 관심사 기반 매칭</text>
+    <text x="400" y="180" text-anchor="middle" class="component">- 레벨 기반 매칭</text>
+    
+    <!-- Mission System -->
+    <rect x="600" y="100" width="150" height="80" rx="5" class="box"/>
+    <text x="675" y="140" text-anchor="middle" class="component">미션 시스템</text>
+    <text x="675" y="160" text-anchor="middle" class="component">미션 생성/관리</text>
+    
+    <!-- Chat System -->
+    <rect x="300" y="300" width="200" height="80" rx="5" class="box"/>
+    <text x="400" y="340" text-anchor="middle" class="component">채팅 시스템</text>
+    <text x="400" y="360" text-anchor="middle" class="component">그룹 채팅방 관리</text>
+    
+    <!-- Reward System -->
+    <rect x="600" y="300" width="150" height="80" rx="5" class="box"/>
+    <text x="675" y="340" text-anchor="middle" class="component">보상 시스템</text>
+    
+    <!-- Arrows -->
+    <line x1="170" y1="140" x2="300" y2="140" class="arrow"/>
+    <line x1="500" y1="140" x2="600" y2="140" class="arrow"/>
+    <line x1="400" y1="220" x2="400" y2="300" class="arrow"/>
+    <line x1="500" y1="340" x2="600" y2="340" class="arrow"/>
+</svg>
